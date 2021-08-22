@@ -1,0 +1,16 @@
+/*stripe start*/
+.wc-stripe-elements-field {
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fff;
+    outline: 0;
+    width:100%!important;
+}
+
+
+#add_payment_method #payment ul.payment_methods .stripe-card-group, .woocommerce-checkout #payment ul.payment_methods .stripe-card-group {
+    position: relative;
+    width: 100%!important;
+}
+/*stripe end*/
