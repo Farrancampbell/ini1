@@ -1,6 +1,6 @@
 <?php
-include_once'phpformbuilder/Form.php';
-include_once'phpformbuilder/Validator/Validator.php';
+include_once'./phpformbuilder/Form.php';
+include_once'./phpformbuilder/Validator/Validator.php';
 @session_start();
 include_once rtrim($_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR) . '/Invest-in-Innovation/phpformbuilder/Form.php';
 
