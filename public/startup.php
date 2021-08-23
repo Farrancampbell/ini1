@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1-moda
     The Form
 ================================================== */
 
-$form = new Forms('contact-form-1-modal', 'horizontal', 'novalidate');
+$form = new Form('contact-form-1-modal', 'horizontal', 'novalidate');
 // $form->setMode('development');
 $form->startFieldset('Please fill in this form to Register to Pitch');
 $form->addHtml('<p class="text-warning">All fields are required</p>');
