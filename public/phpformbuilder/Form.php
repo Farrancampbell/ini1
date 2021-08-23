@@ -1,5 +1,5 @@
 <?php
-namespace phpformbuilder;
+#namespace phpformbuilder;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
