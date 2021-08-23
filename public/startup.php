@@ -247,6 +247,7 @@ $form->addPlugin('formvalidation', '#contact-form-1-modal');
                 </div>
         </header>
         <script src="javascript/slick.js"></script>
+        <script src="javascript/slick.js"></script>
         <section class="section-startup" style="
 margin-top: 110px;
 margin-left: 100px;
@@ -254,15 +255,14 @@ margin-right: 50px;
 margin-bottom: 50px;
 ">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-4">
                         <div class="startup-image">
-                            <img src="images/startup.svg" alt="Showcase Your Startup" width="374" height="117.6" style="
-                    margin-top: 110px; margin-left: 50px; margin-right: 50px; margin-bottom: 50px">
+                            <img src="images/startup.svg" alt="Showcase Your Startup" width="374" height="117.6" >
                         </div>
                     </div>
-                    <div class="showcase">
-                        <div class="col-lg-6">
+                    <div class="showcase col-lg-8">
+                        <div>
                             <p class="whatis-if">We’re gathering the top investors and industry decision makers who want
                                 to
                                 meet the next big start-ups in health. We’re looking for the distrupters, trailblazers
@@ -285,8 +285,8 @@ margin-bottom: 50px;
         <section>
             <div class="container">
                 <div class="funding">
-                    <div class="row">
-                        <div class="col-lg-3" style="
+                    <div class="row flex-nowrap">
+                        <div class="col-lg-4 col-xs-12" style="
                   margin-right: 75px;
               ">
                             <img src="images/funding.svg" alt="Funding" width="242" height="72">
@@ -297,7 +297,7 @@ margin-bottom: 50px;
                                 the next level.
                             </p>
                         </div>
-                        <div class="col-lg-3" style="
+                        <div class="col-lg-4 col-xs-12" style="
                     margin-right: 75px;
                 ">
                             <img src="images/networking.svg" alt="Networking" width="334" height="72">
@@ -307,7 +307,7 @@ margin-bottom: 50px;
                                 most relevant potential mentors, investors and collaborators to help you get ahead.
                             </p>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4 col-xs-12">
                             <img src="images/awareness.svg" alt="Awareness" width="334" height="72">
                             <br>
                             <br>
@@ -333,8 +333,10 @@ margin-bottom: 50px;
                     <div class="container">
                         <div class="row">
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top" src="images/startup_logos/INIABiosciences-DraganaSavic.png"
-                                    alt="Card image cap">
+                                <div class="img-header">
+                                    <img class="card-img-top" src="images/startup_logos/INIABiosciences-DraganaSavic.png"
+                                        alt="Card image cap">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">INA Biosciences</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -348,11 +350,12 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <br>
-                                <br>
-                                <img class="card-img-top"
-                                    src="images/startup_logos/200x50px-Senior-Deli-Logo_Blue-01 1.png"
-                                    alt="Card image cap">
+                                <div class="img-header">
+                                    <img class="card-img-top"
+                                        src="images/startup_logos/200x50px-Senior-Deli-Logo_Blue-01 1.png"
+                                        alt="Card image cap"
+                                        style="position: absolute; top: 25%;">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Senior Deli</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -366,11 +369,13 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                                <div class="img-header">
                                 <img class="card-img-top" src="images/startup_logos/147465455.png" alt="Card image cap"
                                     style="
                     height: 196px;
                     width: 134px;
                 ">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">OXYJET</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -385,11 +390,14 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                                <div class="img-header">
+
                                 <img class="card-img-top" src="images/startup_logos/Baby-FM 1.png" alt="Card image cap"
                                     style="
                     width: 180px;
                     height: 174px;
                 ">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Baby FM</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -404,9 +412,12 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top"
-                                    src="images/startup_logos/bright biotech-6 - Mohammad El Hajj 1 1.png"
-                                    alt="Card image cap">
+                                <div class="img-header">
+                                    
+                                    <img class="card-img-top"
+                                        src="images/startup_logos/bright biotech-6 - Mohammad El Hajj 1 1.png"
+                                        alt="Card image cap">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Bright Biotech</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -422,8 +433,11 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top" src="images/startup_logos/ImmtuneTherapies 1.png"
-                                    alt="Card image cap">
+                                <div class="img-header">
+                                    
+                                    <img class="card-img-top" src="images/startup_logos/ImmtuneTherapies 1.png"
+                                        alt="Card image cap">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">ImmTune Therapies</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -437,8 +451,11 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top" src="images/startup_logos/koshkey final - Tanay Bhatt 1 1.png"
-                                    alt="Card image cap">
+                                <div class="img-header">
+                                    
+                                    <img class="card-img-top" src="images/startup_logos/koshkey final - Tanay Bhatt 1 1.png"
+                                        alt="Card image cap">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">KoshKey</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -452,8 +469,11 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top" src="images/startup_logos/Limula_logo_vertical 1.png"
+                                <div class="img-header">
+                                    
+                                    <img class="card-img-top" src="images/startup_logos/Limula_logo_vertical 1.png"
                                     alt="Card image cap" style="height: 155px;width: 232px;">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Limula</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -467,9 +487,12 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top"
-                                    src="images/startup_logos/mirai-logo-color-fonsblanc - Kevin Schädler 1.png"
-                                    alt="Card image cap">
+                                <div class="img-header">
+                                    
+                                    <img class="card-img-top"
+                                        src="images/startup_logos/mirai-logo-color-fonsblanc - Kevin Schädler 1.png"
+                                        alt="Card image cap">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">INA Biosciences</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -483,9 +506,12 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                                <div class="img-header">
+                                    
                                 <img class="card-img-top" src="images/startup_logos/MYLEG_logo 3 1.png"
                                     alt="Card image cap" style="
                     width: 132px;">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">MyLeg</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -495,7 +521,10 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top" src="images/startup_logos/Neobe 2 1.png" alt="Card image cap">
+                                <div class="img-header">
+                                    
+                                    <img class="card-img-top" src="images/startup_logos/Neobe 2 1.png" alt="Card image cap">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Neobe Therapeutics</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -509,8 +538,11 @@ margin-bottom: 50px;
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <img class="card-img-top" src="images/startup_logos/oysmobilityPNG 1 1.png"
-                                    alt="Card image cap">
+                                <div class="img-header">
+                                    
+                                    <img class="card-img-top" src="images/startup_logos/oysmobilityPNG 1 1.png"
+                                        alt="Card image cap">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">OYS Mobility</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
@@ -572,7 +604,7 @@ margin-bottom: 50px;
 
 
             </script>
-            <script type="text/javascript" src="public/javascript/bootstrap.min.js"></script>
+            <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
             <script src="javascript/popper.js"></script>
             <script type="text/javascript"></script>
             <script src="Fontawesome/js/v4-shims.min.js"></script>

@@ -259,8 +259,8 @@ $form->addPlugin('formvalidation', '#contact-form-1-modal');
             margin-top: 50px;
             margin-bottom: 50px;
         ">
-                    <div class="row">
-                            <div class="col-lg-3">
+                    <div class="row flex-nowrap">
+                            <div class="col-lg-4 col-xs-12">
                                 <img src="images/dealflow.svg" alt="Dealflow" width="242" height="72" style="
                                 margin-left: -30;
                             ">
@@ -269,7 +269,7 @@ $form->addPlugin('formvalidation', '#contact-form-1-modal');
                                 <p>We gather and validate the most promising start-ups in the health-tech, med-tech and biotech space. Match with relevant ventures which match your investment thesis.
                                 </p>
                             </div>
-                            <div class="col-lg-3" style="
+                            <div class="col-lg-4 col-xs-12" style="
                     margin-right: 75px;
                 ">
                                 <img src="images/partnering.svg" alt="Partnering" width="242" height="72">
@@ -278,7 +278,7 @@ $form->addPlugin('formvalidation', '#contact-form-1-modal');
                                 <p>We offer exclusive opportunities to network with other VCs, angel investors, high net worths and family offices to share ideas and potential co-investing opportunities.
                                 </p>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 col-xs-12">
                                 <img src="images/stayinformed.svg" alt="Stay Informed" width="242" height="72">
                                 <br>
                                 <br>

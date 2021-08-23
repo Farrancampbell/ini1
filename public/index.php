@@ -43,7 +43,6 @@
     <meta name="google-site-verification" content="PuX6EXnyDmk45ChRIzCTh4MF5u4_9XWu0lNHl1YGXoU" />
     <meta name="yandex-verification" content="078df958e13ba313" />
 </head>
-
 <body>
     <script type="text/javascript">
         // _linkedin_partner_id = "956956";
@@ -76,13 +75,13 @@
                 aria-label="Toggle navigation"> <span class="icon-bar"></span> </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="startup.php">Start-Ups</a></li>
-                    <li class="nav-item"><a class="nav-link" href="investors.php">Investors</a></li>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="startups.html">Start-Ups</a></li>
+                    <li class="nav-item"><a class="nav-link" href="investors.html">Investors</a></li>
                     <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
                     <li class="nav-item"><a class="btn btn-primary" href="https://innovationforum.ticketspice.com/invest-in-innovation" target="_blank" rel="noopener noreferrer" role="button">Buy Tickets</a></li>
-                    </ul>
-?>
+                </ul>
             </div>
         </div>
     </nav>
@@ -154,7 +153,6 @@
                     <div class="col-lg-4 img-what-is">
                         <img src="images/what-is.svg" alt="What Is Innovation Forum" width="374" height="117.6">
                     </div>
-                    
                     <div class="col-lg-8" style="
                         padding-left: 80px;
                         padding-right: 0px;
@@ -220,7 +218,7 @@
                                         <div id="collapseOne" class="panel-collapse in collapse show" role="tabpanel"
                                             aria-labelledby="headingOne" style="">
                                             <div class="panel-body">
-                                                <div class="panel-body">
+                                                <div class="">
                                                     <p>With the Catalonia ‘Bioregion’ seeing one company a week being
                                                         founded it is
                                                         clear that this ecosystem is a growing opportunity for
@@ -407,13 +405,13 @@
                             <div class="col-md-6" style="
                             padding-left: 100px">
                                 <ul class="nav nav-tabs" role="tablist">
-                                    <li class="nav-item" style="
+                                    <!-- <li class="nav-item" style="
                             padding-right: 100px;
                             margin-right: 150px;
-                            ">
+                            "> -->
                                     <li class="nav-item">
                                         <a class="nav-link" style="
-                                padding-left: 100px;" data-toggle="tab"><span class="day">Day 1 :</span><br>09 November
+                                padding-left: 0;" data-toggle="tab"><span class="day">Day 1 :</span><br>09 November
                                             2021</a>
                                     </li>
                                 </ul>
@@ -443,13 +441,13 @@
                             <div class="col-md-6" style="
                                 padding-left: 100px">
                                 <ul class="nav nav-tabs" role="tablist">
-                                    <li class="nav-item" style="
+                                    <!-- <li class="nav-item" style="
                                 padding-right: 100px;
                                 margin-right: 150px;
-                                ">
+                                "> -->
                                     <li class="nav-item">
                                         <a class="nav-link" style="
-                                    padding-left: 100px;" data-toggle="tab"><span class="day">Day 2 :</span><br>10
+                                    padding-left: 0;" data-toggle="tab"><span class="day">Day 2 :</span><br>10
                                             November
                                             2021</a>
                                     </li>
@@ -497,7 +495,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-left: 60px;">
+            <div class="row justify-content-between" style="margin-left: 60px;">
                 <div class="col-md-3">
                     <div class="thumbnail">
                         <img src="images/Daniel-Oliver-Capital-Cell.jpg" alt="Daniel Oliver"

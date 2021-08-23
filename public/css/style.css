@@ -654,6 +654,32 @@ mark,
   max-width: 100%;
   height: auto;
 }
+/* new changes */
+section#schedule .section-header img {
+  display: block;
+  margin: 0 auto;
+}
+section#schedule .tab-content .nav li.nav-item {
+  background: orange;
+  margin: 0 auto;
+  display: block;
+}
+section#schedule .tab-content .nav li.nav-item a.nav-link {
+  padding-left: 0;
+}
+ .session-title, .session-info, .session {
+  text-align: center;
+}
+.img-header {
+  min-height: 200px;
+  max-height: 200px;
+  position: relative;
+}
+/* .img-header img {
+  position: absolute;
+  top: 25%;
+} */
+/* new changes ends */
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -19182,6 +19208,9 @@ section.section-agenda .agenda-break {
   font-size: 20px;
   font-weight: 700;
   color: #DCDA20;
+  text-align: center;
+  display: block;
+
 }
 
 .session{
