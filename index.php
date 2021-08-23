@@ -78,7 +78,7 @@
                 <ul class="navbar-nav ml-auto">
                     </li>
                     <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="startup.php">Start-Ups</a></li>
+                    <?php echo'<li class="nav-item"><a class="nav-link" href="startup.php">Start-Ups</a>';?></li>
                     <li class="nav-item"><a class="nav-link" href="investors.php">Investors</a></li>
                     <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
                     <li class="nav-item"><a class="btn btn-primary" href="https://innovationforum.ticketspice.com/invest-in-innovation" target="_blank" rel="noopener noreferrer" role="button">Buy Tickets</a></li>
