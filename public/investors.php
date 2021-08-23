@@ -101,6 +101,7 @@ $form->addPlugin('formvalidation', '#contact-form-1-modal');
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title>Invest in Innovation Forum</title>
     <meta name="robots" content="max-image-preview:large" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="description"
         content="Innovation Forum is proud to present Invest In Innovation, a high caliber, two-day conference displaying the future of the healthcare industry in the next big Innovation Hub, Barcelona, Spain. Get an early-bird ticket now!" />
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
