@@ -13,7 +13,7 @@ use phpformbuilder\Validator\Validator;
  *
  */
 
-class Forms
+class Form
 {
     /* general */
 
