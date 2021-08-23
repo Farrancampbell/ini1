@@ -110,6 +110,7 @@ $form->addPlugin('formvalidation', '#contact-form-1-modal');
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title>Invest in Innovation Forum</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="robots" content="max-image-preview:large" />
     <meta name="description"
         content="Innovation Forum is proud to present Invest In Innovation, a high caliber, two-day conference displaying the future of the healthcare industry in the next big Innovation Hub, Barcelona, Spain. Get an early-bird ticket now!" />
@@ -571,7 +572,7 @@ margin-bottom: 50px;
 
 
             </script>
-            <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+            <script type="text/javascript" src="public/javascript/bootstrap.min.js"></script>
             <script src="javascript/popper.js"></script>
             <script type="text/javascript"></script>
             <script src="Fontawesome/js/v4-shims.min.js"></script>
