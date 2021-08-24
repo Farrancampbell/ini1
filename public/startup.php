@@ -282,7 +282,7 @@ margin-bottom: 50px;
         </section>
 
         <section>
-            <img src="images/border.svg" alt="border" width="2000" height="66">
+            <img src="images/border.svg" alt="border" width="100%" height="66">
         </section>
         <section>
             <div class="container">
@@ -324,7 +324,7 @@ margin-bottom: 50px;
 
         </section>
         <section>
-            <img src="images/border.svg" alt="border" width="2000" height="66">
+            <img src="images/border.svg" alt="border" width="100%" height="66">
         </section>
         <section>
             <section id="schedule" class="section-with-bg">
