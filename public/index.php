@@ -244,7 +244,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="../public/images/1916-health-horizons-2019-306.png"
+                        <img src="public/images/1916-health-horizons-2019-306.png"
                             alt="Invest In Innovation Logo" width="572" height="572">
                     </div>
                 </div>
@@ -406,7 +406,7 @@
                             <div class="col-md-6" style="
                             padding-left: 100px">
                             <div id="Nov-nine">
-                             <img width="293" height="78" src="../public/images/gradient-background-buttons-css-html.png"></div>
+                             <img width="293" height="78" src="public/images/gradient-background-buttons-css-html.png"></div>
                             
                                 <h4 class="session">Session 1</h4>
                                 <br>
@@ -434,7 +434,7 @@
                             <div class="col-md-6" style="
                                 padding-left: 100px">
                                 <div id="Nov-ten">
-                                    <img width="293" height="78" src="../public/images/gradient-background-buttons-css-html2.png"></div>
+                                    <img width="293" height="78" src="public/images/gradient-background-buttons-css-html2.png"></div>
                                 </ul>
                                 <h4 class="session">Session 3</h4>
                                 <br>
@@ -605,7 +605,7 @@
                             </div>
 
                             <div class="">
-                                <img src="Invest In Innovation /ini-logo-white.svg"/>
+                                <img src="public/images/ini-logo-white.svg"/>
                             </div>
                         </div>
                     <!-- </div> -->
