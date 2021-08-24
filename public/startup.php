@@ -247,7 +247,6 @@ $form->addPlugin('formvalidation', '#contact-form-1-modal');
                 </div>
         </header>
         <script src="javascript/slick.js"></script>
-        <script src="javascript/slick.js"></script>
         <section class="section-startup" style="
 margin-top: 110px;
 margin-left: 100px;
@@ -277,6 +276,9 @@ margin-bottom: 50px;
                     </div>
                 </div>
             </div>
+            <span class="buy-ticket-btn">
+                <a href="#"><button class="orange-button">Register to Pitch</button></a>
+            </span>
         </section>
 
         <section>
@@ -286,7 +288,7 @@ margin-bottom: 50px;
             <div class="container">
                 <div class="funding">
                     <div class="row flex-nowrap">
-                        <div class="col-lg-4 col-xs-12" style="
+                        <div class="col-lg-4 col-xs-12 funding-text" style="
                   margin-right: 75px;
               ">
                             <img src="images/funding.svg" alt="Funding" width="242" height="72">
@@ -297,7 +299,7 @@ margin-bottom: 50px;
                                 the next level.
                             </p>
                         </div>
-                        <div class="col-lg-4 col-xs-12" style="
+                        <div class="col-lg-4 col-xs-12 funding-text" style="
                     margin-right: 75px;
                 ">
                             <img src="images/networking.svg" alt="Networking" width="334" height="72">
@@ -307,7 +309,7 @@ margin-bottom: 50px;
                                 most relevant potential mentors, investors and collaborators to help you get ahead.
                             </p>
                         </div>
-                        <div class="col-lg-4 col-xs-12">
+                        <div class="col-lg-4 col-xs-12 funding-text">
                             <img src="images/awareness.svg" alt="Awareness" width="334" height="72">
                             <br>
                             <br>
@@ -326,16 +328,19 @@ margin-bottom: 50px;
         </section>
         <section>
             <section id="schedule" class="section-with-bg">
-                <div class="container-fluid">
+                <div class="container-fluid card-container">
                     <div class="section-header">
                         <img src="images/startup-logo.svg" alt="Start Ups" width="158" height="46">
                     </div>
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     <img class="card-img-top" src="images/startup_logos/INIABiosciences-DraganaSavic.png"
-                                        alt="Card image cap">
+                                        alt="Card image cap" style="
+                                        width: 180px;
+                                        height: 124px;
+                                    ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">INA Biosciences</h5>
@@ -349,7 +354,7 @@ margin-bottom: 50px;
                                     <a href="https://www.iniabiosciences.com/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     <img class="card-img-top"
                                         src="images/startup_logos/200x50px-Senior-Deli-Logo_Blue-01 1.png"
@@ -368,9 +373,9 @@ margin-bottom: 50px;
                                     <a href="https://www.seniordeli.com/en/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
-                                <div class="img-header">
-                                <img class="card-img-top" src="images/startup_logos/147465455.png" alt="Card image cap"
+                            <div class="card new-card" >
+                                <div class="img-header" id="oxyjet-header">
+                                <img class="card-img-top" src="images/startup_logos/147465455.png" id="oxyjet" alt="Card image cap"
                                     style="
                     height: 196px;
                     width: 134px;
@@ -389,13 +394,13 @@ margin-bottom: 50px;
                                     <a href="https://mhealth.buet.ac.bd/oxyjet/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
 
                                 <img class="card-img-top" src="images/startup_logos/Baby-FM 1.png" alt="Card image cap"
                                     style="
                     width: 180px;
-                    height: 174px;
+                    height: 124px;
                 ">
                                 </div>
                                 <div class="card-body">
@@ -411,12 +416,17 @@ margin-bottom: 50px;
                                     <!-- <a href="#" class="card-link">Card link</a> -->
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
                                     <img class="card-img-top"
                                         src="images/startup_logos/bright biotech-6 - Mohammad El Hajj 1 1.png"
-                                        alt="Card image cap">
+                                        alt="Card image cap"
+                                        style="
+                    width: 180px;
+                    height: 124px;
+                "
+                                        >
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Bright Biotech</h5>
@@ -432,11 +442,15 @@ margin-bottom: 50px;
                                     <!-- <a href="#" class="card-link">Card link</a> -->
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
                                     <img class="card-img-top" src="images/startup_logos/ImmtuneTherapies 1.png"
-                                        alt="Card image cap">
+                                        alt="Card image cap"
+                                        style="
+                    width: 180px;
+                    height: 124px;
+                ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">ImmTune Therapies</h5>
@@ -450,11 +464,14 @@ margin-bottom: 50px;
                                     <a href="https://www.immtunetherapies.com/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
                                     <img class="card-img-top" src="images/startup_logos/koshkey final - Tanay Bhatt 1 1.png"
-                                        alt="Card image cap">
+                                        alt="Card image cap" style="
+                                        width: 180px;
+                                        height: 124px;
+                                    ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">KoshKey</h5>
@@ -468,11 +485,11 @@ margin-bottom: 50px;
                                     <!-- <a href="#" class="card-link">Card link</a> -->
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
                                     <img class="card-img-top" src="images/startup_logos/Limula_logo_vertical 1.png"
-                                    alt="Card image cap" style="height: 155px;width: 232px;">
+                                    alt="Card image cap" style="height: 124px;width: 232px;">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Limula</h5>
@@ -486,7 +503,7 @@ margin-bottom: 50px;
                                     <a href="https://limula-biotech.com/" class="card-link">Lmula</a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
                                     <img class="card-img-top"
@@ -505,12 +522,14 @@ margin-bottom: 50px;
                                         <a href="https://miraiskin.com/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
                                 <img class="card-img-top" src="images/startup_logos/MYLEG_logo 3 1.png"
                                     alt="Card image cap" style="
-                    width: 132px;">
+                                    width: 132px;
+                                    height: 124px;
+                                ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">MyLeg</h5>
@@ -520,10 +539,13 @@ margin-bottom: 50px;
                                     <a href="https://www.my-leg.com/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
-                                    <img class="card-img-top" src="images/startup_logos/Neobe 2 1.png" alt="Card image cap">
+                                    <img class="card-img-top" src="images/startup_logos/Neobe 2 1.png" alt="Card image cap" style="
+                                    width: 180px;
+                                    height: 124px;
+                                ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Neobe Therapeutics</h5>
@@ -537,11 +559,14 @@ margin-bottom: 50px;
                                     <!-- <a href="#" class="card-link">Card link</a> -->
                                 </div>
                             </div>
-                            <div class="card" style="width: 18rem;margin-right: 50px;margin-top: 50px;">
+                            <div class="card new-card" >
                                 <div class="img-header">
                                     
                                     <img class="card-img-top" src="images/startup_logos/oysmobilityPNG 1 1.png"
-                                        alt="Card image cap">
+                                        alt="Card image cap" style="
+                                        width: 180px;
+                                        height: 124px;
+                                    ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">OYS Mobility</h5>
@@ -562,20 +587,22 @@ margin-bottom: 50px;
             <section>
                 <footer class="site-footer">
                     <div class="container">
-                        <div class="row">
+                        <div class="row" style="
+                        margin-left: 35px;
+                    ">
                             <div class="col-xs-6 col-md-3">
                                 <!-- Partners -->
                             </div>
                             <hr>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
+                    <div class="container-fluid">
+                        
                             <div class="ini-footer">
-                                <div class="col-md-12">
+                                <div class="">
                                     <img src="images/ini-logo_blk.svg" alt="Invest in Innovation Logo">
                                     <div class="container">
-                                        <div class="col-md-6"></div>
+                                        <!-- <div class="col-md-6"></div> -->
                                         <div class="row">
                                             <div>
                                                 <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
@@ -585,20 +612,26 @@ margin-bottom: 50px;
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-6">
+    
+                                <div class="social">
                                     <ul class="social-icons">
-                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="twitter" href="https://twitter.com/Innovation_F"><i
+                                                    class="fa fa-twitter"></i></a></li>
+                                        <li><a class="dribbble" href="https://www.instagram.com/innovation_forum/"><i
+                                                    class="fa fa-instagram"></i></a></li>
+                                        <li><a class="linkedin" href="https://www.linkedin.com/company/innovation-forum"><i
+                                                    class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
+    
+                                <div class="">
+                                    <img src="./images/logo_innoforum.svg"/>
+                                </div>
                             </div>
-                        </div>
+                        <!-- </div> -->
                     </div>
                     </div>
-
+    
                 </footer>
             </section>
 
