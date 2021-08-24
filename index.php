@@ -245,7 +245,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="Invest In Innovation /1916-health-horizons-2019-306.png"
+                        <img src="../public/images/gradient-background-buttons-css-html.png"
                             alt="Invest In Innovation Logo" width="572" height="572">
                     </div>
                 </div>
@@ -382,41 +382,20 @@
                         </div>
                     </div>
                 </div>
-        </section>
-        <section id="schedule" class="section-with-bg">
+                </section>
+                <section id="schedule" class="section-with-bg">
             <div class="container-fluid">
                 <div class="section-header">
                     <img src="images/event_schedule.svg" alt="Invest In Innovation Logo" width="158" height="46">
                 </div>
-                <!-- <div>
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item" style="
-                    padding-right: 100px;
-                    margin-right: 150px;
-                    ">
-                            <a class="nav-link" style="
-                        padding-right: 100px;" data-toggle="tab"><span class="day">Day 1 :</span><br>9 November
-                                2021</a>
-                        </li>
-                        
-                    </ul>
-                </div> -->
                 <div class="tab-content row justify-content-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6" style="
                             padding-left: 100px">
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li class="nav-item" style="
-                            padding-right: 100px;
-                            margin-right: 150px;
-                            ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" style="
-                                padding-left: 100px;" data-toggle="tab"><span class="day">Day 1 :</span><br>09 November
-                                            2021</a>
-                                    </li>
-                                </ul>
+                            <div id="Nov-nine">
+                             <img width="293" height="78" src="../public/images/gradient-background-buttons-css-html.png"></div>
+                            
                                 <h4 class="session">Session 1</h4>
                                 <br>
                                 <h2 class="session-title">Barcelona as an Innovation Hub</h2>
@@ -442,23 +421,14 @@
                             </div>
                             <div class="col-md-6" style="
                                 padding-left: 100px">
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li class="nav-item" style="
-                                padding-right: 100px;
-                                margin-right: 150px;
-                                ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" style="
-                                    padding-left: 100px;" data-toggle="tab"><span class="day">Day 2 :</span><br>10
-                                            November
-                                            2021</a>
-                                    </li>
+                                <div id="Nov-ten">
+                                    <img width="293" height="78" src="../public/images/gradient-background-buttons-css-html2.png"></div>
                                 </ul>
                                 <h4 class="session">Session 3</h4>
                                 <br>
                                 <h2 class="session-title">Emerging Trends in Health</h2>
                                 <br>
-                                <br>
+                                
                                 <p class="session-info">We gather key opinion leaders in both academia, successful
                                     start-ups and leading companies to discuss the vast emergence new opportunities
                                     across biotech, health tech and med tech fueled by innovative research and
@@ -486,64 +456,6 @@
             </div>
         </section>
         <script src="javascript/slick.js"></script>
-        <section>
-            <img src="images/border.svg" alt="border" width="2000" height="66">
-        </section>
-        <section id="advisors" class="section-with-bg">
-            <div class="container-fluid">
-                <div class="section-header">
-                    <div class="venue">
-                        <img src="images/advisors.svg" alt="Invest In Innovation Logo" width="158" height="46">
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-left: 60px;">
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/Daniel-Oliver-Capital-Cell.jpg" alt="Daniel Oliver"
-                            style="width:50%;margin-left: 100px;margin-top: 25px;">
-                        <div class="advisor-caption" style="
-                      padding-top: 50px">
-                            <h3>Daniel Oliver</h3>
-                            <h6>CEO, Capital Cell</h6>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="thumbnail">
-                        <img src="images/Daniel+Moreno+Martinez.jpg" alt="Dr. Daniel Moreno Martinez"
-                            class="d-flex justify-content-center"
-                            style="width:50%;margin-left: 100px;margin-top: 25px;">
-                        <div class="advisor-caption" style="
-                      padding-top: 50px">
-                            <h3>Dr. Daniel Moreno</h3>
-                            <h6>Head of the innovation programme, Hospital Germans Trias i Pujol </h6>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/ignasi heras.jpg" alt="Ignasi Heras"
-                            style="width:50%;margin-left: 100px;margin-top: 25px;">
-                        <div class="advisor-caption" style="
-                      padding-top: 50px">
-                            <h3>Ignasi Heras</h3>
-                            <h6>VC investor</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-        </section>
-        <section>
-            <img src="images/border.svg" alt="border" width="2000" height="66">
-        </section>
         <section class="section-default mailing-list">
             <div class="container">
                 <div class="row justify-content-center">
@@ -580,6 +492,62 @@
                 </div>
             </div>
         </section>
+        <section id="advisors" class="section-with-bg">
+            <div class="container-fluid">
+                <div class="section-header">
+                    <div class="venue">
+                        <img src="images/advisors.svg" alt="Invest In Innovation Logo" width="158" height="46">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between" style="margin-left: 15%; margin-right: 15%">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/Daniel-Oliver-Capital-Cell.jpg" alt="Daniel Oliver"
+                            style="width:50%;margin-top: 25px; margin-left: 18%">
+                        <div class="advisor-caption" style="
+                      padding-top: 50px">
+                            <h3>Daniel Oliver</h3>
+                            <h6>CEO, Capital Cell</h6>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="thumbnail">
+                        <img src="images/Daniel+Moreno+Martinez.jpg" alt="Dr. Daniel Moreno Martinez"
+                            class="d-flex justify-content-center"
+                            style="width:50%;margin-left: 18%;margin-top: 25px;">
+                        <div class="advisor-caption" style="
+                      padding-top: 50px">
+                            <h3>Dr. Daniel Moreno</h3>
+                            <h6>Head of the innovation programme, Hospital Germans Trias i Pujol </h6>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/ignasi heras.jpg" alt="Ignasi Heras"
+                            style="width:50%;margin-left: 18%;margin-top: 25px;">
+                        <div class="advisor-caption" style="
+                      padding-top: 50px">
+                            <h3>Ignasi Heras</h3>
+                            <h6>VC investor</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+        <section>
+            <img src="images/border.svg" alt="border" width="2000" height="66">
+        </section>
+        
         <section>
             <footer class="site-footer">
                 <div class="container">
@@ -592,15 +560,16 @@
                         <hr>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
+                <div class="container-fluid">
+                    
                         <div class="ini-footer">
-                            <div class="col-md-12">
+                            <div class="">
                                 <img src="images/ini-logo_blk.svg" alt="Invest in Innovation Logo">
                                 <div class="container">
-                                    <div class="col-md-6"></div>
+                                    <!-- <div class="col-md-6"></div> -->
                                     <div class="row">
                                         <div>
+                                            <br>
                                             <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
                                                 Innovation Forum.
                                             </p>
@@ -609,7 +578,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="social">
                                 <ul class="social-icons">
                                     <li><a class="twitter" href="https://twitter.com/Innovation_F"><i
                                                 class="fa fa-twitter"></i></a></li>
@@ -619,12 +588,18 @@
                                                 class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
+
+                            <div class="">
+                                <img src="Invest In Innovation /ini-logo-white.svg"/>
+                            </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
                 </div>
 
             </footer>
+        </section>
+
         </section>
 
 

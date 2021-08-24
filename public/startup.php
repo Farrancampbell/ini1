@@ -467,7 +467,7 @@ margin-bottom: 50px;
                                             human eye. Our first product (launch 2021) improves sun protection by
                                             visualising sunscreen coverage, providing superior but cheaper insight compared
                                             to existing solutions, with a target market of over 100M users in the EU.
-                                            </pirai’s purpose is t>
+                                            </p>
                                             <a href="https://miraiskin.com/" class="card-link">Website</a>
                                     </div>
                                 </div>
