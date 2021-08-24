@@ -43,6 +43,7 @@
     <meta name="google-site-verification" content="PuX6EXnyDmk45ChRIzCTh4MF5u4_9XWu0lNHl1YGXoU" />
     <meta name="yandex-verification" content="078df958e13ba313" />
 </head>
+
 <body>
     <script type="text/javascript">
         // _linkedin_partner_id = "956956";
@@ -76,9 +77,9 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     </li>
-                    <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="startup.php">Start-Ups</a></li>
-                    <li class="nav-item"><a class="nav-link" href="investors.php">Investors</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="startups.html">Start-Ups</a></li>
+                    <li class="nav-item"><a class="nav-link" href="investors.html">Investors</a></li>
                     <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
                     <li class="nav-item"><a class="btn btn-primary" href="https://innovationforum.ticketspice.com/invest-in-innovation" target="_blank" rel="noopener noreferrer" role="button">Buy Tickets</a></li>
                 </ul>
@@ -172,7 +173,7 @@
             </div>
         </section>
         <section>
-            <img src="images/border.svg" alt="border" width="2000" height="66">
+            <img src="images/border.svg" alt="border" width="100%" height="66">
         </section>
         <section class="description_ini">
             <div class="container-fluid">
@@ -184,7 +185,7 @@
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#accordion"
                                             href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
-                                            class="">
+                                            class="invest">
                                             Why Invest in Innovation ?
                                         </a>
                                     </h4>
@@ -210,7 +211,7 @@
                                             <h4 class="panel-title">
                                                 <a class="collapsed" role="button" data-toggle="collapse"
                                                     data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                                                    aria-controls="collapseTwo">
+                                                    aria-controls="collapseTwo" id="barcelona">
                                                     Why Barcelona ?
                                                 </a>
                                             </h4>
@@ -218,7 +219,7 @@
                                         <div id="collapseOne" class="panel-collapse in collapse show" role="tabpanel"
                                             aria-labelledby="headingOne" style="">
                                             <div class="panel-body">
-                                                <div class="">
+                                                <div class="barcelona-text">
                                                     <p>With the Catalonia ‘Bioregion’ seeing one company a week being
                                                         founded it is
                                                         clear that this ecosystem is a growing opportunity for
@@ -243,7 +244,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="public/images/1916-health-horizons-2019-306.png"
+                        <img src="Invest In Innovation /1916-health-horizons-2019-306.png"
                             alt="Invest In Innovation Logo" width="572" height="572">
                     </div>
                 </div>
@@ -404,15 +405,15 @@
                         <div class="row">
                             <div class="col-md-6" style="
                             padding-left: 100px">
-                                <ul class="nav nav-tabs" role="tablist">
+                                <ul class="nav " role="tablist">
                                     <!-- <li class="nav-item" style="
                             padding-right: 100px;
                             margin-right: 150px;
                             "> -->
-                                    <li class="nav-item">
+                                    <li class="nav-item" id="Nov-nine">
                                         <a class="nav-link" style="
-                                padding-left: 0;" data-toggle="tab"><span class="day">Day 1 :</span><br>09 November
-                                            2021</a>
+                                padding-left: 0;" data-toggle="tab"><span class="day">Day 1 :</span><br><span id="Nine-nov">09 November
+                                            2021</span></a>
                                     </li>
                                 </ul>
                                 <h4 class="session">Session 1</h4>
@@ -456,7 +457,7 @@
                                 <br>
                                 <h2 class="session-title">Emerging Trends in Health</h2>
                                 <br>
-                                <br>
+                                
                                 <p class="session-info">We gather key opinion leaders in both academia, successful
                                     start-ups and leading companies to discuss the vast emergence new opportunities
                                     across biotech, health tech and med tech fueled by innovative research and
@@ -484,64 +485,6 @@
             </div>
         </section>
         <script src="javascript/slick.js"></script>
-        <section>
-            <img src="images/border.svg" alt="border" width="2000" height="66">
-        </section>
-        <section id="advisors" class="section-with-bg">
-            <div class="container-fluid">
-                <div class="section-header">
-                    <div class="venue">
-                        <img src="images/advisors.svg" alt="Invest In Innovation Logo" width="158" height="46">
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-between" style="margin-left: 60px;">
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/Daniel-Oliver-Capital-Cell.jpg" alt="Daniel Oliver"
-                            style="width:50%;margin-left: 100px;margin-top: 25px;">
-                        <div class="advisor-caption" style="
-                      padding-top: 50px">
-                            <h3>Daniel Oliver</h3>
-                            <h6>CEO, Capital Cell</h6>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="thumbnail">
-                        <img src="images/Daniel+Moreno+Martinez.jpg" alt="Dr. Daniel Moreno Martinez"
-                            class="d-flex justify-content-center"
-                            style="width:50%;margin-left: 100px;margin-top: 25px;">
-                        <div class="advisor-caption" style="
-                      padding-top: 50px">
-                            <h3>Dr. Daniel Moreno</h3>
-                            <h6>Head of the innovation programme, Hospital Germans Trias i Pujol </h6>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/ignasi heras.jpg" alt="Ignasi Heras"
-                            style="width:50%;margin-left: 100px;margin-top: 25px;">
-                        <div class="advisor-caption" style="
-                      padding-top: 50px">
-                            <h3>Ignasi Heras</h3>
-                            <h6>VC investor</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-        </section>
-        <section>
-            <img src="images/border.svg" alt="border" width="2000" height="66">
-        </section>
         <section class="section-default mailing-list">
             <div class="container">
                 <div class="row justify-content-center">
@@ -578,6 +521,65 @@
                 </div>
             </div>
         </section>
+        <!-- <section>
+            <img src="images/border.svg" alt="border" width="2000" height="66">
+        </section> -->
+        <section id="advisors" class="section-with-bg">
+            <div class="container-fluid">
+                <div class="section-header">
+                    <div class="venue">
+                        <img src="images/advisors.svg" alt="Invest In Innovation Logo" width="158" height="46">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between" style="margin-left: 15%; margin-right: 15%">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/Daniel-Oliver-Capital-Cell.jpg" alt="Daniel Oliver"
+                            style="width:50%;margin-top: 25px; margin-left: 18%">
+                        <div class="advisor-caption" style="
+                      padding-top: 50px">
+                            <h3>Daniel Oliver</h3>
+                            <h6>CEO, Capital Cell</h6>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="thumbnail">
+                        <img src="images/Daniel+Moreno+Martinez.jpg" alt="Dr. Daniel Moreno Martinez"
+                            class="d-flex justify-content-center"
+                            style="width:50%;margin-left: 18%;margin-top: 25px;">
+                        <div class="advisor-caption" style="
+                      padding-top: 50px">
+                            <h3>Dr. Daniel Moreno</h3>
+                            <h6>Head of the innovation programme, Hospital Germans Trias i Pujol </h6>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/ignasi heras.jpg" alt="Ignasi Heras"
+                            style="width:50%;margin-left: 18%;margin-top: 25px;">
+                        <div class="advisor-caption" style="
+                      padding-top: 50px">
+                            <h3>Ignasi Heras</h3>
+                            <h6>VC investor</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+        <section>
+            <img src="images/border.svg" alt="border" width="2000" height="66">
+        </section>
+        
         <section>
             <footer class="site-footer">
                 <div class="container">
@@ -590,15 +592,16 @@
                         <hr>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
+                <div class="container-fluid">
+                    
                         <div class="ini-footer">
-                            <div class="col-md-12">
+                            <div class="">
                                 <img src="images/ini-logo_blk.svg" alt="Invest in Innovation Logo">
                                 <div class="container">
-                                    <div class="col-md-6"></div>
+                                    <!-- <div class="col-md-6"></div> -->
                                     <div class="row">
                                         <div>
+                                            <br>
                                             <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
                                                 Innovation Forum.
                                             </p>
@@ -607,7 +610,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="social">
                                 <ul class="social-icons">
                                     <li><a class="twitter" href="https://twitter.com/Innovation_F"><i
                                                 class="fa fa-twitter"></i></a></li>
@@ -617,8 +620,12 @@
                                                 class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
+
+                            <div class="">
+                                <img src="Invest In Innovation /ini-logo-white.svg"/>
+                            </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
                 </div>
 
