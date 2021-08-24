@@ -322,9 +322,9 @@ margin-bottom: 50px;
                 </div>
             </div>
 
-        </section>
+            </section>
         <section>
-            <img src="images/border.svg" alt="border" width="100%" height="66">
+            <img src="images/border.svg" alt="border" width="2000" height="66">
         </section>
         <section>
             <section id="schedule" class="section-with-bg">
@@ -336,66 +336,6 @@ margin-bottom: 50px;
                         <div class="row">
                             <div class="card new-card" >
                                 <div class="img-header">
-                                    <img class="card-img-top" src="images/startup_logos/INIABiosciences-DraganaSavic.png"
-                                        alt="Card image cap" style="
-                                        width: 180px;
-                                        height: 124px;
-                                    ">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">INA Biosciences</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">INIA Biosciences is a noninvasive, closed-loop, home use
-                                        monitoring system that integrates biomarker monitoring with an ultrasound
-                                        stimulator to reduce inflammation and dependence on immunosuppressant drugs.
-                                        INIA envisions a future where medicine is more than a pill. We are building the
-                                        future of bioelectronic medicine.
-                                        Screen reader support enabled.</p>
-                                    <a href="https://www.iniabiosciences.com/" class="card-link">Website</a>
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    <img class="card-img-top"
-                                        src="images/startup_logos/200x50px-Senior-Deli-Logo_Blue-01 1.png"
-                                        alt="Card image cap"
-                                        style="position: absolute; top: 25%;">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Senior Deli</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">Transforming every meal for the dysphagic with the latest
-                                        science and highest quality. We provide texture-modified food solutions to those
-                                        with swallowing or chewing difficulties. Our flagship ready-to-eat soft meals
-                                        are made using proprietary ultrasound-assisted enzyme technology which softens
-                                        food without affecting its form or nutrition.
-                                        Screen reader support enabled.</p>
-                                    <a href="https://www.seniordeli.com/en/" class="card-link">Website</a>
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header" id="oxyjet-header">
-                                <img class="card-img-top" src="images/startup_logos/147465455.png" id="oxyjet" alt="Card image cap"
-                                    style="
-                    height: 196px;
-                    width: 134px;
-                ">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">OXYJET</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">Due to COVID-19, about 14% of patients require respiratory
-                                        assistance. But high price and lack of availability of respiratory assistive
-                                        devices are causing unexpected deaths. We have developed a low-cost venturi CPAP
-                                        that can be used with existing infrastructure in hospitals in a low-resource
-                                        setting. We aim to provide early CPAP intervention in treatment with the device.
-                                        To enable screen reader support, press ⌘+Option+Z To learn about keyboard
-                                        shortcuts, press ⌘slash</p>
-                                    <a href="https://mhealth.buet.ac.bd/oxyjet/" class="card-link">Website</a>
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
 
                                 <img class="card-img-top" src="images/startup_logos/Baby-FM 1.png" alt="Card image cap"
                                     style="
@@ -405,52 +345,41 @@ margin-bottom: 50px;
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Baby FM</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content. Lorem ipsum, dolor sit amet consectetur adipisicing
-                                        elit. Natus eveniet sequi optio qui. Commodi sed fuga ex quos in deleniti
-                                        voluptate.
-                                        Voluptatibus quasi ducimus saepe voluptatum libero maiores amet necessitatibus?
+                                    <h6 class="card-subtitle mb-2 text-muted">
+                                        Belgrade, Serbia</h6>
+                                    <p class="card-text">BabyFM is a pediatric fever monitor system which consists of temperature and movement sensor technology that enables continuous monitoring of the fever condition of babies. By utilising app connectivity, the Baby Fever Monitor enables child fever management in particular with certain conditions such as febrile convulsions.
+
                                     </p>
-                                    <!-- <a href="#" class="card-link">Card link</a> -->
+                                    <a href="https://babyfm.rs/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    
-                                    <img class="card-img-top"
-                                        src="images/startup_logos/bright biotech-6 - Mohammad El Hajj 1 1.png"
-                                        alt="Card image cap"
-                                        style="
-                    width: 180px;
-                    height: 124px;
-                "
-                                        >
+                           
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        
+                                        <img class="card-img-top"
+                                            src="images/startup_logos/bright biotech-6 - Mohammad El Hajj 1 1.png"
+                                            alt="Card image cap"
+                                            style="width: 180px;height: 124px;">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bright Biotech</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Manchester, UK</h6>
+                                        <p class="card-text">Bright Biotech is a Contract Manufacturing and Development
+                                            Organisation specialising in plant-based production of high-quality and
+                                            affordable recombinant proteins for R&D, therapeutic, cosmeceutical, agri-food
+                                            and industrial applications. Our method challenges the inherent disadvantages of
+                                            the traditional expression systems. It is sustainable, highly scalable and is
+                                            animal- and endotoxin-free
+                                        </p>
+                                        <!-- <a href="#" class="card-link">Card link</a> -->
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Bright Biotech</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">Bright Biotech is a Contract Manufacturing and Development
-                                        Organisation specialising in plant-based production of high-quality and
-                                        affordable recombinant proteins for R&D, therapeutic, cosmeceutical, agri-food
-                                        and industrial applications. Our method challenges the inherent disadvantages of
-                                        the traditional expression systems. It is sustainable, highly scalable and is
-                                        animal- and endotoxin-free.
-                                        Screen reader support enabled.
-                                    </p>
-                                    <!-- <a href="#" class="card-link">Card link</a> -->
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    
+                                  <div class="card new-card" >
+                                <div class="img-header"> 
                                     <img class="card-img-top" src="images/startup_logos/ImmtuneTherapies 1.png"
                                         alt="Card image cap"
-                                        style="
-                    width: 180px;
-                    height: 124px;
-                ">
+                                        style="width: 180px; height: 124px;">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">ImmTune Therapies</h5>
@@ -464,126 +393,193 @@ margin-bottom: 50px;
                                     <a href="https://www.immtunetherapies.com/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card new-card" >
+                                 <div class="card new-card" >
                                 <div class="img-header">
-                                    
-                                    <img class="card-img-top" src="images/startup_logos/koshkey final - Tanay Bhatt 1 1.png"
+                                    <img class="card-img-top" src="images/startup_logos/INIABiosciences-DraganaSavic.png"
                                         alt="Card image cap" style="
                                         width: 180px;
                                         height: 124px;
                                     ">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">KoshKey</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">The spread of Antimicrobial Resistance (AMR) infection is
-                                        common in hospital setups, and in patients with weak immunity or comorbidities
-                                        like diabetes. We have discovered a novel approach of inducing the cocktail of
-                                        antimicrobial peptides from patients' own skin cells to fight off infections and
-                                        promote wound healing.
+                                    <h5 class="card-title">INIA Biosciences</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Oxford, UK</h6>
+                                    <p class="card-text">INIA Biosciences is a noninvasive, closed-loop, home use
+                                        monitoring system that integrates biomarker monitoring with an ultrasound
+                                        stimulator to reduce inflammation and dependence on immunosuppressant drugs.
+                                        INIA envisions a future where medicine is more than a pill. We are building the
+                                        future of bioelectronic medicine.</p>
+                                    <a href="https://www.iniabiosciences.com/" class="card-link">Website</a>
+                                </div>
+                            </div>
+   
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        
+                                        <img class="card-img-top" src="images/startup_logos/koshkey final - Tanay Bhatt 1 1.png"
+                                            alt="Card image cap" style="
+                                            width: 180px;
+                                            height: 124px;
+                                        ">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">KoshKey</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Bangalore, India</h6>
+                                        <p class="card-text">The spread of Antimicrobial Resistance (AMR) infection is
+                                            common in hospital setups, and in patients with weak immunity or comorbidities
+                                            like diabetes. We have discovered a novel approach of inducing the cocktail of
+                                            antimicrobial peptides from patients' own skin cells to fight off infections and
+                                            promote wound healing.
+                                            Screen reader support enabled.</p>
+                                        <!-- <a href="#" class="card-link">Card link</a> -->
+                                    </div>
+                                </div>
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        
+                                        <img class="card-img-top" src="images/startup_logos/Limula_logo_vertical 1.png"
+                                        alt="Card image cap" style="height: 124px;width: 232px;">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Limula</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Lausanne, Switzerland</h6>
+                                        <p class="card-text">Limula provides an enabling technology to biotech companies
+                                            developing CAR T cells and other cell and gene therapies (CGT). Our patented
+                                            solution is a robust and scalable manufacturing platform, facilitating the
+                                            transition from pre-clinical development of these highly personalized cancer
+                                            treatments to their routine use in the hospital
+                                        </p>
+                                        <a href="https://limula-biotech.com/" class="card-link">Website</a>
+                                    </div>
+                                </div>
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        
+                                        <img class="card-img-top"
+                                            src="images/startup_logos/mirai-logo-color-fonsblanc - Kevin Schädler 1.png"
+                                            alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mirai</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Barcelona, Spain</h6>
+                                        <p class="card-text">Mirai’s purpose is to make the invisible visible using patented
+                                            technology (TRL 7), which enables smartphones to see light invisible to the
+                                            human eye. Our first product (launch 2021) improves sun protection by
+                                            visualising sunscreen coverage, providing superior but cheaper insight compared
+                                            to existing solutions, with a target market of over 100M users in the EU.
+                                            </pirai’s purpose is t>
+                                            <a href="https://miraiskin.com/" class="card-link">Website</a>
+                                    </div>
+                                </div>
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        
+                                    <img class="card-img-top" src="images/startup_logos/MYLEG_logo 3 1.png"
+                                        alt="Card image cap" style="
+                                        width: 132px;
+                                        height: 124px;
+                                    ">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">MyLeg</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Zurich, Switzerland
+                                        </h6>
+                                        <p class="card-text">MYLEG improves walking in amputees by a wearable, non-invasive
+                                            sensory feedback for their prosthesis</p>
+                                        <a href="https://www.my-leg.com/" class="card-link">Website</a>
+                                    </div>
+                                </div>
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        
+                                        <img class="card-img-top" src="images/startup_logos/Neobe 2 1.png" alt="Card image cap" style="
+                                        width: 180px;
+                                        height: 124px;
+                                    ">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Neobe Therapeutics</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">London, UK</h6>
+                                        <p class="card-text">At Neobe Therapeutics we are engineering bacterial strains that
+                                            can colonize the inner tumour core, allowing for the localized delivery of
+                                            therapeutic agents that disrupt barriers to immune cell infiltration. By
+                                            providing a safe and innovative way to remodel the local environment, our
+                                            product will enable the success of immunotherapeutic strategies in current
+                                            non-responders.</p>
+                                        <!-- <a href="#" class="card-link">Card link</a> -->
+                                    </div>
+                                </div>
+                                <div class="card new-card" >
+                                    <div class="img-header" id="oxyjet-header">
+                                    <img class="card-img-top" src="images/startup_logos/147465455.png" id="oxyjet" alt="Card image cap"
+                                        style="
+                        height: 196px;
+                        width: 134px;
+                    ">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">OXYJET</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Dhaka, Bangladesh</h6>
+                                        <p class="card-text">Due to COVID-19, about 14% of patients require respiratory
+                                            assistance. But high price and lack of availability of respiratory assistive
+                                            devices are causing unexpected deaths. We have developed a low-cost venturi CPAP
+                                            that can be used with existing infrastructure in hospitals in a low-resource
+                                            setting. We aim to provide early CPAP intervention in treatment with the device.
+                                            To enable screen reader support, press ⌘+Option+Z To learn about keyboard
+                                            shortcuts, press ⌘slash</p>
+                                        <a href="https://mhealth.buet.ac.bd/oxyjet/" class="card-link">Website</a>
+                                    </div>
+                                </div>
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        
+                                        <img class="card-img-top" src="images/startup_logos/oysmobilityPNG 1 1.png"
+                                            alt="Card image cap" style="
+                                            width: 180px;
+                                            height: 124px;
+                                        ">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">OYS Mobility</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Philadelphia, PA, USA</h6>
+                                        <p class="card-text">We are developing innovative technology and a healthcare
+                                            delivery model to improve global access and affordability of custom prosthetic
+                                            devices for people with limb loss. Our solution upends the status-quo and
+                                            enables generalists to provide a similar quality of care currently limited to
+                                            specialists. Success for us is improving the functionality and participation in
+                                            society for people with limb loss.</p>
+                                        <a href="https://www.oysmobility.com/" class="card-link">Website</a>
+                                    </div>
+                                </div>
+                                <div class="card new-card" >
+                                    <div class="img-header">
+                                        <img class="card-img-top"
+                                            src="images/startup_logos/200x50px-Senior-Deli-Logo_Blue-01 1.png"
+                                            alt="Card image cap"
+                                            style="position: absolute; top: 25%;">
+                                    </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Senior Deli</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Hong Kong, China</h6>
+                                    <p class="card-text">Transforming every meal for the dysphagic with the latest
+                                        science and highest quality. We provide texture-modified food solutions to those
+                                        with swallowing or chewing difficulties. Our flagship ready-to-eat soft meals
+                                        are made using proprietary ultrasound-assisted enzyme technology which softens
+                                        food without affecting its form or nutrition.
                                         Screen reader support enabled.</p>
-                                    <!-- <a href="#" class="card-link">Card link</a> -->
+                                    <a href="https://www.seniordeli.com/en/" class="card-link">Website</a>
                                 </div>
                             </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    
-                                    <img class="card-img-top" src="images/startup_logos/Limula_logo_vertical 1.png"
-                                    alt="Card image cap" style="height: 124px;width: 232px;">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Limula</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">Limula provides an enabling technology to biotech companies
-                                        developing CAR T cells and other cell and gene therapies (CGT). Our patented
-                                        solution is a robust and scalable manufacturing platform, facilitating the
-                                        transition from pre-clinical development of these highly personalized cancer
-                                        treatments to their routine use in the hospital
-                                    </p>
-                                    <a href="https://limula-biotech.com/" class="card-link">Lmula</a>
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    
-                                    <img class="card-img-top"
-                                        src="images/startup_logos/mirai-logo-color-fonsblanc - Kevin Schädler 1.png"
-                                        alt="Card image cap">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">INA Biosciences</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">Mirai’s purpose is to make the invisible visible using patented
-                                        technology (TRL 7), which enables smartphones to see light invisible to the
-                                        human eye. Our first product (launch 2021) improves sun protection by
-                                        visualising sunscreen coverage, providing superior but cheaper insight compared
-                                        to existing solutions, with a target market of over 100M users in the EU.
-                                        </pirai’s purpose is t>
-                                        <a href="https://miraiskin.com/" class="card-link">Website</a>
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    
-                                <img class="card-img-top" src="images/startup_logos/MYLEG_logo 3 1.png"
-                                    alt="Card image cap" style="
-                                    width: 132px;
-                                    height: 124px;
-                                ">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">MyLeg</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">MYLEG improves walking in amputees by a wearable, non-invasive
-                                        sensory feedback for their prosthesis</p>
-                                    <a href="https://www.my-leg.com/" class="card-link">Website</a>
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    
-                                    <img class="card-img-top" src="images/startup_logos/Neobe 2 1.png" alt="Card image cap" style="
-                                    width: 180px;
-                                    height: 124px;
-                                ">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Neobe Therapeutics</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">At Neobe Therapeutics we are engineering bacterial strains that
-                                        can colonize the inner tumour core, allowing for the localized delivery of
-                                        therapeutic agents that disrupt barriers to immune cell infiltration. By
-                                        providing a safe and innovative way to remodel the local environment, our
-                                        product will enable the success of immunotherapeutic strategies in current
-                                        non-responders.</p>
-                                    <!-- <a href="#" class="card-link">Card link</a> -->
-                                </div>
-                            </div>
-                            <div class="card new-card" >
-                                <div class="img-header">
-                                    
-                                    <img class="card-img-top" src="images/startup_logos/oysmobilityPNG 1 1.png"
-                                        alt="Card image cap" style="
-                                        width: 180px;
-                                        height: 124px;
-                                    ">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">OYS Mobility</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cambridge, UK</h6>
-                                    <p class="card-text">We are developing innovative technology and a healthcare
-                                        delivery model to improve global access and affordability of custom prosthetic
-                                        devices for people with limb loss. Our solution upends the status-quo and
-                                        enables generalists to provide a similar quality of care currently limited to
-                                        specialists. Success for us is improving the functionality and participation in
-                                        society for people with limb loss.</p>
-                                    <a href="https://www.oysmobility.com/" class="card-link">Website</a>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </section>
+            <section>
+                <div class="bottom-border">
+            <img src="images/border.svg" alt="border" width="100%" height="66">
+            </div>
+        </section>
             <section>
                 <footer class="site-footer">
                     <div class="container">
@@ -633,9 +629,7 @@ margin-bottom: 50px;
                     </div>
     
                 </footer>
-            </section>
-
-
+            
             </script>
             <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
             <script src="javascript/popper.js"></script>
