@@ -244,7 +244,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="Invest In Innovation /1916-health-horizons-2019-306.png"
+                        <img src="public/images/1916-health-horizons-2019-306.png"
                             alt="Invest In Innovation Logo" width="572" height="572">
                     </div>
                 </div>
@@ -622,7 +622,7 @@
                             </div>
 
                             <div class="">
-                                <img src="Invest In Innovation /ini-logo-white.svg"/>
+                                <img src="public/images/ini-logo-white.svg"/>
                             </div>
                         </div>
                     <!-- </div> -->
