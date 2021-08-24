@@ -665,15 +665,32 @@ section#schedule .tab-content .nav li.nav-item {
   display: block;
 }
 section#schedule .tab-content .nav li.nav-item a.nav-link {
-  padding-left: 0;
+  /* padding-left: 0; */
+  font-family: lato;
 }
- .session-title, .session-info, .session {
+ .session-title,  .session {
   text-align: center;
+}
+.session-info{
+  text-align: justify
 }
 .img-header {
   min-height: 200px;
   max-height: 200px;
   position: relative;
+}
+.img-header >img{
+text-align: center
+}
+.invest, #barcelona{
+  font-size: 40px !important;
+}
+.barcelona-text p{
+  line-height: 2.5
+}
+#Nov-nine{
+  border-radius: 10px;
+  border-bottom: none
 }
 /* .img-header img {
   position: absolute;
@@ -3378,6 +3395,10 @@ fieldset:disabled a.btn {
   border-radius: 0;
 }
 
+#subscribe_button{
+  background-color: orange !important;
+  color: black !important
+}
 .btn-block {
   display: block;
   width: 100%;
@@ -5007,7 +5028,14 @@ input[type="button"].btn-block {
   border: 1px solid rgba(25, 25, 25, 0.125);
   border-radius: 0;
 }
-
+.card-container{
+  width: 90%;
+}
+.new-card{
+  width: 30%;
+  margin-right: 3%;
+  margin-top: 50px;
+}
 .card-class{
   margin-right: 50px;
 }
@@ -5099,7 +5127,12 @@ input[type="button"].btn-block {
   left: 0;
   padding: 1.25rem;
 }
-
+/* #oxyjet-header{
+  width: 100%
+} */
+.img-header #oxyjet{
+  margin-left: 25%
+}
 .card-img {
   width: 100%;
   border-radius: calc(0 - 1px);
@@ -5107,6 +5140,7 @@ input[type="button"].btn-block {
 
 .card-img-top {
   width: 100%;
+  max-width: 60%;
   border-top-left-radius: calc(0 - 1px);
   border-top-right-radius: calc(0 - 1px);
 }
@@ -17121,7 +17155,11 @@ section.section-counters .number-label {
   font-weight: 200;
   color: #5ba8dd;
 }
-
+.mailing-list{
+background: linear-gradient(258.62deg, #458ACC -5.25%, #B6D15D 106.19%);
+  /* background-repeat: no-repeat;
+  height: 250px */
+}
 section.mailing-list .mailing-list-description {
   color: #5ba8dd;
 }
@@ -18205,14 +18243,44 @@ Line-height: 160%;
 text-align: Center;
 display: inline-block;
   vertical-align: middle;
-
+  
 
 }
-
+.mailing-list-description h3, .mailing-list-description >p{
+  color: white
+}
+#contactus{
+  color: white
+}
 .buy-ticket-btn .btn-primary {
   background: linear-gradient(0deg, #4884c8, #4884c8), #dcda20;
   width: 220px;
   height: 62.43px;
+}
+.buy-ticket-btn .orange-button{
+  width: 30%;
+  padding: 20px 20px;
+  background-color: orange;
+  color:  black;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: lato;
+  margin-top: 20px;
+  margin-left: 35%
+}
+@media screen and (max-width: 767px){
+  .buy-ticket-btn .orange-button{
+    width: 70%;
+    margin-left: 15%
+  }
+  .new-card{
+    width: 31%;
+    margin-right: 1.5%;
+    margin-top: 30px;
+    font-size: 11px
+  }
 }
 .whatis-if {
   margin-top: 50px;
@@ -19205,12 +19273,16 @@ section.section-agenda .agenda-break {
 }
 
 .day{
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 700;
   color: #DCDA20;
   text-align: center;
   display: block;
-
+font-family: lato
+}
+#Nine-nov{
+  text-align: center;
+  font-family: lato
 }
 
 .session{
@@ -19335,7 +19407,9 @@ section.section-agenda .session-n {
   margin-bottom: 100px;
   justify-content: space-around;
 }
-
+.funding-text p{
+  font-size: 11px;
+}
 .startup-card {
   margin: auto;
   display: flex;
@@ -19653,7 +19727,7 @@ ul.countdown li h3 {
 }
 .copyright-text
 {
-  margin:0
+  align-self: center;
 }
 @media (max-width:991px)
 {
@@ -19744,8 +19818,15 @@ ul.countdown li h3 {
     font-weight:600
   }
 }
+
 .ini-footer{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+.social-icons{
+  margin-left: 0
+}
+.social{
+  margin-right: 12%
 }
