@@ -658,6 +658,11 @@ mark,
 section#schedule .section-header img {
   display: block;
   margin: 0 auto;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+section#schedule {
+  margin-bottom: 10%;
 }
 section#schedule .tab-content .nav li.nav-item {
   background: orange;
@@ -684,13 +689,18 @@ text-align: center
 }
 .invest, #barcelona{
   font-size: 40px !important;
+  line-height: 1.5 !important;
 }
 .barcelona-text p{
   line-height: 2.5
 }
 #Nov-nine{
-  border-radius: 10px;
-  border-bottom: none
+  align-content: center;
+  margin-left: 22%;
+}
+#Nov-ten{
+  align-content: center;
+  margin-left: 22%;
 }
 /* .img-header img {
   position: absolute;
@@ -19289,6 +19299,7 @@ font-family: lato
   color: #51BB52;
   font-family: lato;
   text-align: center;
+  margin-top: 5%
 }
 
 section.section-agenda .session-time {
